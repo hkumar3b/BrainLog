@@ -37,6 +37,32 @@ BrainLog is designed to function as a **personal knowledge log for developers**,
   Easy development setup with Docker and Docker Compose.
 
 ---
+## System Architecture Diagram
+                ┌──────────────────────┐
+                │   Chrome Extension   │
+                │  (URL Collector)     │
+                └──────────┬───────────┘
+                           │
+                           │  POST /items
+                           │
+                    ┌──────▼──────┐
+                    │   NestJS    │
+                    │   Backend   │
+                    │  (API + Auth)│
+                    └──────┬──────┘
+                           │
+                    Prisma ORM
+                           │
+                    ┌──────▼──────┐
+                    │ PostgreSQL  │
+                    │  Database   │
+                    └──────┬──────┘
+                           │
+                           │
+                  ┌────────▼────────┐
+                  │ React Dashboard │
+                  │ (Revision UI)   │
+                  └─────────────────┘
 
 ## 🏗 Tech Stack
 
