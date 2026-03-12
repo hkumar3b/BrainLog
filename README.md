@@ -14,6 +14,7 @@ BrainLog is designed to function as a **personal knowledge log for developers**,
 
 * ⚡ **One-Click Capture**
   Save any webpage instantly using the Chrome extension.
+  jhfhfhhfhfhfh
 
 * 🗂 **Custom Categories**
   Organize links into categories like DSA, Blogs, Work, Ideas, or create your own.
