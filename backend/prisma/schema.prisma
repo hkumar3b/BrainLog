@@ -1,6 +1,7 @@
 generator client {
   provider = "prisma-client-js"
 }
+
 datasource db {
   provider = "postgresql"
 }
@@ -20,16 +21,15 @@ model Link {
   id          String    @id @default(cuid())
   url         String
   title       String?
-  description String?
   category    Category
+  customLabel String?
   revisited   Boolean   @default(false)
   weekNumber  Int
   year        Int
   savedAt     DateTime  @default(now())
   revisitedAt DateTime?
-
-  userId String
-  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([userId])
   @@index([weekNumber, year])
