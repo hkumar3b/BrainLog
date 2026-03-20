@@ -55,14 +55,14 @@ export default function LoginPage() {
             text-white font-bold text-2xl
             shadow-lg shadow-violet-500/25
           ">
-                        W
+                        B
                     </div>
                     <h1 className="
             text-2xl font-bold
             text-gray-900 dark:text-white
             tracking-tight
           ">
-                        Revision Tracker
+                        BrainLog
                     </h1>
                     <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">
                         Your weekly learning companion
