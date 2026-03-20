@@ -21,13 +21,13 @@ export default function Navbar() {
             flex items-center justify-center
             text-white font-bold text-sm
           ">
-                        W
+                        B
                     </div>
                     <span className="
             font-semibold text-gray-900 dark:text-white
             tracking-tight
           ">
-                        Revision Tracker
+                        BrainLog
                     </span>
                 </div>
 
