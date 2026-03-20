@@ -1,4 +1,4 @@
-import { AuthResponse } from '../types';
+import type { AuthResponse } from '../types';
 
 const API = import.meta.env.VITE_API_URL || 'http://localhost:3000';
 
