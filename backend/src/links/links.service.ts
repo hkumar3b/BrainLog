@@ -35,8 +35,8 @@ export class LinksService {
     return this.prisma.link.findMany({
       where: {
         userId,
-        ...(filters.week && { weekNumber: filters.week }),
-        ...(filters.year && { year: filters.year }),
+        ...(filters.week && { weekNumber: Number(filters.week) }),
+        ...(filters.year && { year: Number(filters.year) }),
         ...(filters.category && { category: filters.category }),
         ...(filters.revisited !== undefined && { revisited: filters.revisited }),
       },
@@ -70,9 +70,9 @@ export class LinksService {
       done: links.filter(l => l.revisited).length,
       pending: links.filter(l => !l.revisited).length,
       dsa: links.filter(l => l.category === 'DSA').length,
-      gpt: links.filter(l => l.category === 'AI').length,
+      ai: links.filter(l => l.category === 'AI').length,
       blog: links.filter(l => l.category === 'BLOG').length,
-      custom: links.filter(l => l.category === 'GENERAL').length,
+      general: links.filter(l => l.category === 'GENERAL').length,
     };
   }
 
