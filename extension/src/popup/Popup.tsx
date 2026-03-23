@@ -9,10 +9,10 @@ export default function Popup() {
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
-        chrome.storage.local.get(['token', 'user'], (result) => {
-            if (result.token) {
-                setToken(result.token)
-                setUser(result.user)
+        chrome.storage.local.get(['token', 'user'], (result: Record<string, any>) => {
+            if (result['token']) {
+                setToken(result['token'] as string)
+                setUser(result['user'] as User)
             }
             setLoading(false)
         })
