@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "vite.config.ts",
+        "copy-assets.js"
+    ]
+}
