@@ -192,7 +192,7 @@ Instead of forgetting what you solved or learned last week, BrainLog ensures eve
 ## 📌 Status
 
 Currently under active development.
-
+```
 ### **Copyright (c) 2026 Himanshu. All rights reserved.**
 
 **All Rights Reserved.**
