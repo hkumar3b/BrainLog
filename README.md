@@ -192,3 +192,4 @@ Instead of forgetting what you solved or learned last week, BrainLog ensures eve
 ## 📌 Status
 
 Currently under active development.
+Copyright (c) 2026 Himanshu Kumar. All rights reserved. No part of this software may be copied, distributed, or modified without the express written permission of the author.
