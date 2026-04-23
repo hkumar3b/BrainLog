@@ -192,4 +192,11 @@ Instead of forgetting what you solved or learned last week, BrainLog ensures eve
 ## 📌 Status
 
 Currently under active development.
-Copyright (c) 2026 Himanshu Kumar. All rights reserved. No part of this software may be copied, distributed, or modified without the express written permission of the author.
+
+### **Copyright (c) 2026 Himanshu. All rights reserved.**
+
+**All Rights Reserved.**
+
+No part of this software or its associated files may be copied, reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the author.
+
+This code is provided for demonstration purposes only and does not grant any license to use, modify, or redistribute the source code for personal or commercial projects.
